@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pixel', Arial, sans-serif;
+}
+
+body {
+    background-image: url(http://localhost/IN-NET/Imagenes/general/fondo2.png);
+    background-size: cover;
+    background-position: center;
+}

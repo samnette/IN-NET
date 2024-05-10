@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pixel', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+@font-face {
+  font-family: 'Pixel';
+  src: url('pixel.ttf') format('truetype');
+}
+
+.nav {
+    width: 100%;
+    background: #730662;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.libro{
+    height: 60px;
+    width: 60px;
+}
+
+.librologo{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 40px;
+    color:aliceblue;
+    font-weight: 100;
+    font-weight: bold;
+    padding-left: 15px;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin: 10px;
+    color:aliceblue;
+    font-weight: bold;
+}
+
+.menu li a{
+    color:aliceblue;
+    text-decoration: none;
+    transition: all;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.menu li a:hover {
+    padding: 10px 20px;
+    background: #BD0D59;
+    color: #730662;
+    border-radius: 15px;
+}
+
+--->
+
+h1 {
+    font-size: 30px;
+    margin: 20px;
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 20px;
+    color: #BD0D59;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 20px;
+    color: #BD0D59;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.contenedor {
+  display: flex;
+  padding: 15px;
+}
+
+.texto {
+  flex: 1;
+  padding: 20px;
+}
+
+.texto p {
+    font-size: 25px;
+    color: #730662;
+    text-align: left;
+    letter-spacing: 2px;
+    padding: 15px;
+    line-height: 1.5;
+} 
+
+.imagen {
+  flex: 1;
+}
+
+.imagen img {
+  max-width: 85%;
+  height: auto;
+}
+
+.contenedor2 {
+    padding: 20px;
+    background-color: #EECCBB;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.cliente {
+    text-align: center;
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.cliente img {
+    width: 50%; 
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px #BD0D59;
+}
+
+.cliente p {
+    margin-top: 10px;
+    line-height: 1.2;
+    padding: 15px;
+    color: #730662;
+}
+
+.info {
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #730662;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info a {
+    text-decoration: none;
+    color: #BD0D59;
+}
+
+footer {
+  background-color: #730662;
+  color: aliceblue;
+  text-align: center;
+  padding: 30px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+}
