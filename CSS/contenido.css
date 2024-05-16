@@ -1,0 +1,82 @@
+body {
+    background-image: url(http://localhost/IN-NET/Imagenes/general/fondo4.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 20% auto;
+}
+
+.container2 {
+  max-width: 750px;
+  margin: 5% auto;
+  padding: 10px 20px;
+  background-color: rgba(247, 247, 247, 0.5);
+  border-radius: 20px;
+}
+
+h4 {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.level {
+  padding: 15px;
+  transition: color 0.3s ease;
+  color: aliceblue;
+}
+
+.level:hover {
+  color: #EECCBB;
+  background-color: #BD0D59;
+}
+
+.weapon {
+  font-weight: bold;
+}
+
+.builder {
+  font-style: italic;
+}
+
+.container2 p{
+  color:#320C39;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.video-container {
+  width: 600px; 
+  margin: 0 auto; 
+  overflow: hidden; 
+}
+
+video {
+  width: 100%; 
+  height: auto; 
+}
+
+.container2 ol {
+  margin-top: 20px; 
+}
+
+.container2 li {
+  margin-bottom: 15px; 
+}
+
+.container2 li ul {
+  margin-top: 5px; 
+}
+
+.container2 li strong {
+  color: #BD0D59; 
+  font-size: 20px;
+}
+
+.container2 li ul li {
+  color: #320C39; 
+  font-size: 15px;
+}
+
+.container2 li ol {
+  margin-left: 20px; /* Alineación de los pasos secundarios */
+}

@@ -3,7 +3,7 @@
 <head>
     <title>INICIO</title>
     <link href="http://localhost/IN-NET/CSS/index.css" rel="stylesheet"/>
-    <link href="http://localhost/IN-NET/CSS/Inicio.css" rel="stylesheet"/>
+    <link href="http://localhost/IN-NET/CSS/inicio.css" rel="stylesheet"/>
     <script src="http://localhost/IN-NET/Inicio/jquery-3.3.1.min.js"></script>
 </head>
 
@@ -22,6 +22,7 @@
                 <li><a href="http://localhost/IN-NET/admin/home.php">ADMIN</a></li>
                 <?php } ?>
               <li><a href="http://localhost/IN-NET/actividad/actividad.php">ACTIVIDADES</a></li>
+              <li><a href="http://localhost/IN-NET/Contenido/indice.php">CONTENIDO</a><br>
               <li><a href="#">FORO</a></li>
               <li><a href="http://localhost/IN-NET/Perfil/lista.php">PERFIL</a><br>
               <li><a href="http://localhost/IN-NET/Inicio/includes/logout.php">CERRAR SESION</a></li>

@@ -1,0 +1,41 @@
+body {
+    background-image: url(http://localhost/IN-NET/Imagenes/general/fondo3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.temas {
+    list-style: none;
+    padding: 0;
+}
+
+.temas li {
+    margin-bottom: 10px;
+}
+
+.temas li a {
+    display: block;
+    padding: 10px;
+    background-color: #730662;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.temas li a:hover {
+    background-color: #BD0D59;
+}
