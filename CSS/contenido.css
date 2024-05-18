@@ -80,3 +80,27 @@ video {
 .container2 li ol {
   margin-left: 20px; /* Alineación de los pasos secundarios */
 }
+
+.button {
+  padding: 10px 20px;
+    margin: 0 10px; /* Margen horizontal entre los botones */
+  font-size: 16px;
+  background-color: #BD0D59;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #EECCBB;
+}
+
+.botones
+{
+  display: flex;
+  justify-content: center;
+}

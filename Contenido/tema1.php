@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estilo de Texto</title>
+  <title>PROGRAMACION</title>
   <link href="http://localhost/IN-NET/CSS/index.css" rel="stylesheet"/>
   <link href="http://localhost/IN-NET/CSS/contenido.css" rel="stylesheet"/>
 </head>
@@ -43,7 +43,7 @@
         </nav>
   
   <div class="container2">
-    <h2>¡Desbloquea el Poder de la Programación! – Bienvenido a IN-NET</h2>
+    <h2>✧ ¡Desbloquea el Poder de la Programación! – Bienvenido a IN-NET ✧</h2>
 
     <p>¿Listo para sumergirte en el emocionante mundo de la programación? ¡Prepárate para nivelar tus habilidades y convertirte en el maestro del código! Pero espera, ¿qué es realmente la programación?</p>
                 <br><br>
@@ -77,9 +77,14 @@
         <video controls autoplay loop>
             <source src="video.mp4" type="video/mp4">
             Tu navegador no admite el elemento de video.
-        </video><br>
+        </video><br><br><br>
+    </div>
+    <div class="botones">
+      <a href="http://localhost/IN-NET/Contenido/indice.php" class="button">Regresar</a>
+      <a href="http://localhost/IN-NET/Contenido/tema2.php" class="button">Siguiente</a><br><br>
     </div>
   </div>
+  
   <br><br>
 </body>
 <footer>

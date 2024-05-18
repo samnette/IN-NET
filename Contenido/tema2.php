@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estilo de Texto</title>
+  <title>ALGORITMOS</title>
   <link href="http://localhost/IN-NET/CSS/index.css" rel="stylesheet"/>
   <link href="http://localhost/IN-NET/CSS/contenido.css" rel="stylesheet"/>
 </head>
@@ -43,7 +43,7 @@
         </nav>
   
   <div class="container2">
-    <h2>¡Aprendamos sobre Algoritmos!</h2>
+    <h2>✧¡Aprendamos sobre Algoritmos!✧</h2>
 
     <p>Aquí comenzarás tu viaje para dominar los fundamentos de los algoritmos, las herramientas esenciales que te guiarán a través de los desafíos de la programación. Prepárate para aprender de manera divertida y efectiva.</p>
                 <br><br>
@@ -132,7 +132,11 @@
         <video controls autoplay loop>
             <source src="video.mp4" type="video/mp4">
             Tu navegador no admite el elemento de video.
-        </video><br>
+        </video><br><br><br>
+    </div>
+    <div class="botones">
+      <a href="http://localhost/IN-NET/Contenido/tema1.php" class="button">Regresar</a>
+      <a href="http://localhost/IN-NET/Contenido/tema3.php" class="button">Siguiente</a><br><br>
     </div>
   </div>
   <br><br>
