@@ -78,14 +78,14 @@ video {
 }
 
 .container2 li ol {
-  margin-left: 20px; /* Alineación de los pasos secundarios */
+  margin-left: 20px; 
 }
 
 .button {
   padding: 10px 20px;
-    margin: 0 10px; /* Margen horizontal entre los botones */
+  margin: 0 10px; 
   font-size: 16px;
-  background-color: #BD0D59;
+  background-color: #730662;
   color: white;
   border: none;
   border-radius: 5px;
@@ -96,7 +96,8 @@ video {
 }
 
 .button:hover {
-  background-color: #EECCBB;
+  background-color: #BD0D59;
+    color: #730662;
 }
 
 .botones

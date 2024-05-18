@@ -28,34 +28,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $idUser = $_POST['iduser'];
     $nombre = $_POST['nombre'];
     $apellidos = $_POST['apellidos'];
-    $municipio = $_POST['municipio'];
     $nickname = $_POST['nickname'];
     $contra = $_POST['pass'];
     $pass = md5($contra);
-    $telefono = $_POST['telefono'];
-    $ine = $_POST['ine'];
-    $curp = $_POST['curp'];
-
 
     if (!empty($contra) && empty($_FILES['archivo']['name'])) {
         $sql = "UPDATE usuario SET nombre = '$nombre', pass = '$pass', 
-        curp = '$curp', telefono = '$telefono',
-        nickname = '$nickname', apellidos = '$apellidos', municipio = '$municipio'
+        nickname = '$nickname', apellidos = '$apellidos'
         WHERE id = '$idUser'";
     } else if (empty($contra) && !empty($_FILES['archivo']['name'])) {
         $sql = "UPDATE usuario SET nombre = '$nombre', 
-        curp = '$curp', telefono = '$telefono',
-        nickname = '$nickname', apellidos = '$apellidos', municipio = '$municipio', fotografia = '$foto',
+        nickname = '$nickname', apellidos = '$apellidos', fotografia = '$foto',
         archivo_n = '$file_name' WHERE id = '$idUser'";
     } else if (!empty($contra) && !empty($_FILES['archivo']['name'])) {
         $sql = "UPDATE usuario SET nombre = '$nombre', pass = '$pass', 
-        curp = '$curp', telefono = '$telefono',
-        nickname = '$nickname', apellidos = '$apellidos', municipio = '$municipio', fotografia = '$foto',
+        nickname = '$nickname', apellidos = '$apellidos', fotografia = '$foto',
         archivo_n = '$file_name' WHERE id = '$idUser'";
     } else {
         $sql = "UPDATE usuario SET nombre = '$nombre', 
-        curp = '$curp', telefono = '$telefono',
-        nickname = '$nickname', apellidos = '$apellidos', municipio = '$municipio'
+        nickname = '$nickname', apellidos = '$apellidos'
         WHERE id = '$idUser'";
     }
 

@@ -65,7 +65,7 @@
             }
         ?>
 
-<div class="contenedor">
+    <div class="contenedor">
         <form class="form" enctype= "multipart/form-data" action="enviar_email.php" method="post">
             <h2>REGISTRATE</h2><br>
             <img class="imgform" src="http://localhost/IN-NET/Imagenes/formularios/registro.png"><br><br><br>
@@ -78,7 +78,7 @@
                 <span class="file-upload-text" id="file-text">Subir Foto</span>
                 <input type="file" id ="archivo" name="archivo" accept=".jpg, .jpeg, .png" required onchange="handleFileChange()"/>
             </label><br><br><br>
-            <input type="submit" name="registrar" value="Registrar"><br><br>
+            <input class='boton'type="submit" name="registrar" value="Registrar"><br><br>
 
             <a href="../Inicio/index.php">✧ Ya tienes una cuenta? Inicia sesión aquí ✧</a><br><br>
 

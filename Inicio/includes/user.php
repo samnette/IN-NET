@@ -87,6 +87,10 @@ class User extends DB{
         return $this->fotografia;
     }
 
+    public function getEmail(){
+        return $this->useremail;
+    }
+
     public function getAdmin(){
         return $this->admin;
     }
