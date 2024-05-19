@@ -109,7 +109,7 @@ if (isset($_POST['registrar'])) {
                                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                                     $mail->Port = $smtpPort;
 
-                                    $mail->setFrom($smtpUsername, 'INNET by Robloxianos');
+                                    $mail->setFrom($smtpUsername, 'IN-NET by Robloxianos');
                                     $mail->addAddress($recipient);
                                     $mail->Subject = $subject;
                                     $mail->Body = $message;

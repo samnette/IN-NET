@@ -101,8 +101,8 @@
         <form class="form" enctype= "multipart/form-data" action="enviarEditar.php" method="post">
                 <div id="mensaje"></div>
                 <input type="hidden" name="iduser" value="<?php echo $user->getuserId();?>">
-                <input type="text" id="nombre" name="nombre" value = "<?php echo $user->getNombre();?>" placeholder="Editar tu nombre(s)"><br><br>
-                <input type="text" id="apellidos" name="apellidos" value = "<?php echo $user->getApellidos();?>" placeholder="Editar tus apellidos"><br><br>
+                <input type="text" id="nombre" name="nombre" value = "<?php echo $user->getNombre();?>" placeholder="Editar tu nombre(s)" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+" title="Solo se permiten letras y espacios"><br><br>
+                <input type="text" id="apellidos" name="apellidos" value = "<?php echo $user->getApellidos();?>" placeholder="Editar tus apellidos" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+" title="Solo se permiten letras y espacios"><br><br>
                 <input type="text" id="nickname" name="nickname"  value = "<?php echo $user->getUsername();?>" placeholder="Editar nickname" onblur="validarN();"><br><br>
                 <input type="password" name="pass" placeholder="Editar contraseña"><br><br>
                 <label class="custom-file-upload">

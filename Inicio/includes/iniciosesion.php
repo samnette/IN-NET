@@ -19,15 +19,16 @@
                 </ul>
     </nav>
 
-        <?php
-            if(isset($errorLogin)){
-                echo '<div style="color: red; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px; margin-bottom: 15px;">' . $errorLogin . '</div>';
-            }
-        ?>
+       
 
     <div class="contenedor">
         <form class="form" action="" method="POST">
             <h2>Iniciar Sesión</h2><br>
+            <?php
+            if(isset($errorLogin)){
+                echo '<div style="color: red; font-size: 11px; margin-bottom: 15px;">' . $errorLogin . '</div>';
+            }
+        ?>
             <img class="imgform" src="http://localhost/IN-NET/Imagenes/formularios/user.png"><br><br><br>
             <input type="text" name="username" required placeholder="Ingresa tu usuario"><br><br>
             <input type="password" name="password" required placeholder="Ingresa tu contraseña"><br><br>
