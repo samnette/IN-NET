@@ -23,8 +23,23 @@ include 'config.php';
 include 'header.php';
 
 $sql = "SELECT * FROM usuario";
-       
+$sql = "SELECT lugar, username, score
+FROM (
+    SELECT ROW_NUMBER() OVER (ORDER BY score DESC) AS lugar,
+           username,
+           score
+    FROM scores
+) AS tabla_con_lugares
+WHERE username = '$nickname'";
+
 $result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $ranking = $row["lugar"];
+} else {
+    $ranking = "No disponible";
+}
 
 ?>
 
@@ -72,7 +87,7 @@ function mostrarDetalles(id) {
             <p>✧ Nombre completo: <?php echo $nombre . " " . $apellidos; ?> ✧</p>
             <p>✧ Nickname: @<?php echo $nickname; ?> ✧</p>
             <p>✧ Email: <?php echo $email; ?> ✧</p>
-            <p>✧ Ranking: <?php echo "Eo"; ?> ✧</p>
+            <p>✧ Ranking: <?php echo $ranking; ?> ✧</p>
             <button class="boton" onclick="redirigirU()">Editar</button>
         </div>
     </div>

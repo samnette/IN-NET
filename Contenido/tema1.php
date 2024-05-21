@@ -71,13 +71,14 @@
     <br><br>
 
     <div class="level">
-    <h4>¡Video explicativo!</h4>
+    <h4>¡Video explicativo!</h4><br><br>
     </div>
     <div class="video-container">
-        <video controls autoplay loop>
-            <source src="video.mp4" type="video/mp4">
+    <a href="http://localhost/IN-NET/Contenido/Script/tema1.php" class="button">Ver Script</a>
+        <video controls>
+            <source src="http://localhost/IN-NET/Contenido/Videos/tema1.mp4" type="video/mp4">
             Tu navegador no admite el elemento de video.
-        </video><br><br><br>
+        </video><br><br><br><br>
     </div>
     <div class="botones">
       <a href="http://localhost/IN-NET/Contenido/indice.php" class="button">Regresar</a>
