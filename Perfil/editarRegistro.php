@@ -14,10 +14,10 @@
 <html>
 
     <head>
-
+        
     <title>Edición de Perfil</title>
     <link href="http://localhost/IN-NET/CSS/index.css" rel="stylesheet"/>
-    <link href="http://localhost/IN-NET/CSS/formulario.css" rel="stylesheet"/>
+    <link href="http://localhost/IN-NET/CSS/formularie.css" rel="stylesheet"/>
 
         <script src="jquery-3.3.1.min.js"></script>
 
@@ -108,7 +108,7 @@
                 <label class="custom-file-upload">
                     <span class="file-upload-text" id="file-text">Editar Foto</span>
                     <input type="file" id ="archivo" name="archivo" accept=".jpg, .jpeg, .png" onchange="handleFileChange()"/>
-                    <img id="selected-image" class="selected-image" style="display: none;" alt="Imagen seleccionada">
+                    
                 </label><br>
                 <input class='boton' type="submit" onclick=" return validar();" name="registrar" value="Editar">
         </form>

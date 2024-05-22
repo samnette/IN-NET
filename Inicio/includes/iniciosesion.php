@@ -2,7 +2,7 @@
 <html>
 <head>
     <link href="../CSS/index.css" rel="stylesheet"/>
-    <link href="../CSS/formulario.css" rel="stylesheet"/>
+    <link href="../CSS/formularie.css" rel="stylesheet"/>
     <title>INICIO DE SESION</title>
 </head>
 <body>

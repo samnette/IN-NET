@@ -1,0 +1,56 @@
+body {
+    background-image: url(http://localhost/IN-NET/Imagenes/general/rank.png);
+    background-size: cover;
+}
+
+.primero {
+    color: gold;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    }
+
+.segundo {
+    color: silver;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    }
+        
+.tercero {
+    color: #cd7f32;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    }
+        
+.monton {
+    color: black;
+    padding: 10px;
+    }
+
+.primero, .segundo, .tercero, .monton {
+    text-align: center;
+}    
+
+.contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 55%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #730662;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    overflow-y: auto;
+    }
+      
+  

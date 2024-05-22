@@ -37,8 +37,27 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     $ranking = $row["lugar"];
+    $score = $row["score"];
+
+    if ($score >= 0 && $score <= 1000) {
+        $mensaje = "Estás comenzando, ¡sigue adelante! A medida que continúes aprendiendo, verás cómo tu puntuación mejora. No te desanimes por los comienzos lentos, cada paso cuenta.";
+    } elseif ($score >= 1001 && $score <= 3000) {
+        $mensaje = "Buen progreso, continúa así. Ya has superado los primeros obstáculos y estás avanzando de manera constante. Mantén tu enfoque y sigue esforzándote para mejorar aún más. ¡Lo estás haciendo genial!";
+    } elseif ($score >= 3001 && $score <= 5000) {
+        $mensaje = "¡Impresionante! Estás en el camino correcto. Tu dedicación y esfuerzo están dando frutos. Sigue así y verás cómo continúas subiendo en el ranking. Eres un ejemplo de constancia y determinación.";
+    } elseif ($score >= 5001 && $score <= 10000) {
+        $mensaje = "¡Excelente! Estás destacando. Tu puntuación refleja tu compromiso y habilidades. No muchos llegan tan lejos, así que siéntete orgulloso de tus logros. Sigue así, el éxito está a la vuelta de la esquina.";
+    } elseif ($score >= 10001 && $score <= 15000) {
+        $mensaje = "¡Increíble! Eres uno de los mejores. Tu puntuación te coloca en un grupo élite de usuarios que han demostrado un desempeño excepcional. Mantén la misma energía y seguirás alcanzando nuevas alturas.";
+    } elseif ($score >= 15001 && $score <= 20000) {
+        $mensaje = "¡Asombroso! Estás en la élite. Muy pocos pueden igualar tu nivel de habilidad y dedicación. Sigue desafiándote a ti mismo y rompiendo barreras. Eres una inspiración para todos los que te siguen.";
+    } else {
+        $mensaje = "Puntuación fuera de los rangos definidos. Parece que has alcanzado un nivel excepcional que no está dentro de los rangos estándar. ¡Felicitaciones por tu logro extraordinario!";
+    }
 } else {
     $ranking = "No disponible";
+    $score = "No disponible";
+    $mensaje = "Aun no tienes progreso.";
 }
 
 ?>
@@ -74,7 +93,7 @@ function mostrarDetalles(id) {
   <meta charset="UTF-8">
   <title>PERFIL</title>
   <link href="http://localhost/IN-NET/CSS/index.css" rel="stylesheet"/>
-  <link href="http://localhost/IN-NET/CSS/perfil.css" rel="stylesheet"/>
+  <link href="http://localhost/IN-NET/CSS/perfill.css" rel="stylesheet"/>
 
 </head>
 </head>
@@ -88,6 +107,8 @@ function mostrarDetalles(id) {
             <p>✧ Nickname: @<?php echo $nickname; ?> ✧</p>
             <p>✧ Email: <?php echo $email; ?> ✧</p>
             <p>✧ Ranking: <?php echo $ranking; ?> ✧</p>
+            <p>✧ Puntuacion: <?php echo $score; ?> ✧</p><br>
+            <h6>✧ Progreso: <?php echo $mensaje; ?> ✧</h6>
             <button class="boton" onclick="redirigirU()">Editar</button>
         </div>
     </div>

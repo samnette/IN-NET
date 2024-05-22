@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>INICIO ADMIN</title>
     <link href="../CSS/index.css" rel="stylesheet"/>
-    <link href="../CSS/inicio.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../CSS/adminn.css">
 </head>
 
 <header>
@@ -21,7 +21,6 @@
               <li><a href="http://localhost/IN-NET/admin/home.php">ADMIN</a></li>
               <li><a href="../Inicio/index.php">USUARIO</a></li>
               <li><a href="lista.php">LISTA USUARIOS</a></li>
-              <li><a href="#">LISTA POSTS</a></li>
               <li><a href="../Inicio/includes/logout.php">CERRAR SESION</a></li>
             </ul>
         </nav>

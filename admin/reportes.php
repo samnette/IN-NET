@@ -28,7 +28,7 @@ $result = $conexion->query($sql);
 if ($result->num_rows > 0) {
   echo "<div class= 'tablas'>
   <h1>USUARIO</h1>";
-  echo "<table border='1'><tr><th>Fotografia</th><th>Telefono</th><th>Nombre</th><th>Nickname</th><th>Correo</th><th>Eliminar</th></tr>";
+  echo "<table border='1'><tr><th>Fotografia</th><th>Nombre</th><th>Nickname</th><th>Correo</th><th>Eliminar</th></tr>";
 
   while($row = $result->fetch_assoc()) {
       $idU = $row['id'];
@@ -37,14 +37,12 @@ if ($result->num_rows > 0) {
       $nickname = $row['nickname'];
       $correo = $row['email'];
       $status = $row['status'];
-      $telefono = $row['telefono'];
       $fotografia = $row['fotografia'];
       $idunique = $row['unique_id'];
 
       echo "
     <tr id='row$id'>
     <td class='$status'><img src='../Registro/Archivos/$fotografia' style='max-width: 100px; height: auto;' alt='Imagen'></td>
-    <td class='$status'>".$telefono."</td>
     <td class='$status'>".$nombre. " " .$apellidos."</td>
     <td class='$status'>".$nickname."</td>
     <td class='$status'>".$correo."</td>
@@ -55,7 +53,7 @@ if ($result->num_rows > 0) {
   echo "</table>";
   echo "</div>";
 } else {
-  echo "No se encontraron resultados";
+  echo "No se encontraron reportes.";
 }
 
 $sql = "SELECT *
@@ -66,7 +64,7 @@ $result = $conexion->query($sql);
 if ($result->num_rows > 0) {
   echo "<div class= 'tabl1s'>
   <h1></h1>";
-  echo "<table border='1'><tr><th>ID Reporte</th><th>Reporto</th><th>motivo</th><th>fecha</th></tr>";
+  echo "<table border='1'><tr><th>ID Reporte</th><th>Reporto</th><th>Motivo</th><th>Fecha</th></tr>";
 
   while($row = $result->fetch_assoc()) {
       $idR = $row['idR'];
@@ -91,9 +89,9 @@ if ($result->num_rows > 0) {
   }
 
   echo "</table>";
-  echo "</div>";
+  echo "</div><br><br><br>";
 } else {
-  echo "No se encontraron resultados";
+  echo "No se encontraron reportes.";
 }
 
 
@@ -106,7 +104,7 @@ if ($result->num_rows > 0) {
 } 
 ?>
 
-<script src="../Chat/javascript/jquery-3.3.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 
 <script>
 
@@ -125,7 +123,8 @@ if ($result->num_rows > 0) {
                     if (res == "success"){
                       window.location.href = 'lista.php';
                     } else{  
-                        alert('error'); 
+                        alert('Hecho!');
+                        window.location.href = 'lista.php'; 
                     }
                     
                 },error: function() {

@@ -49,7 +49,7 @@ if ($result->num_rows > 0) {
             </tr>";
     }
     echo "</table>";
-    echo "</div>";
+    echo "</div><br><br><br><br><br>";
 } else {
     echo "No se encontraron resultados";
 }
@@ -66,7 +66,7 @@ $conexion->close();
 } 
 ?>
 
-<script src="../Chat/javascript/jquery-3.3.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 
 <script>
 function ejecutar(id) {

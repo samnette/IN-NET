@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(http://localhost/IN-NET/Imagenes/general/admin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tabla {
+  padding: 25px;
+  border-radius: 5px;
+  width: 900px;
+  margin: 0 auto; 
+}
+
+  .tablas {
+    padding: 25px;
+    border-radius: 5px;
+    width: 900px;
+    margin: 0 auto; 
+  }
+
+  .tabl1s {
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0);
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  tr {
+    width: 150px;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    background: #680244;
+    padding: 10px;
+    color: #380031;
+  }
+
+td {
+    background: #7e009d;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+td.Suspendido {
+  background: #570714;
+}
+td.M0 {
+  background: #570718;
+}
+
+.accion {
+  background-color:#730662;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.accion:hover {
+  background-color:#BD0D59;
+  transition: 1s;
+  border-radius: 10px;
+}
+
+header {
+  height: 10%;
+}

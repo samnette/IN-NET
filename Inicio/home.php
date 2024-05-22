@@ -21,10 +21,11 @@
                 <?php $adminson = $user->getAdmin(); if ($adminson == 1) {?>
                 <li><a href="http://localhost/IN-NET/admin/home.php">ADMIN</a></li>
                 <?php } ?>
-              <li><a href="http://localhost/IN-NET/actividad/actividad.php">ACTIVIDADES</a></li>
+              <li><a href="http://localhost/IN-NET/Juego/index.php">¡A JUGAR!</a></li>
               <li><a href="http://localhost/IN-NET/Contenido/indice.php">CONTENIDO</a><br>
               <li><a href="#">FORO</a></li>
               <li><a href="http://localhost/IN-NET/Perfil/lista.php">PERFIL</a><br>
+              <li><a href="http://localhost/IN-NET/Ranking/verranking.php">RANKING</a></li>
               <li><a href="http://localhost/IN-NET/Inicio/includes/logout.php">CERRAR SESION</a></li>
             </ul>
         </nav>

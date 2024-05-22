@@ -11,10 +11,11 @@
     src: url('pixel.ttf') format('truetype');
   }
 
-body{
-    background-color: #730662;
-    background-size: cover;
-    background-position: center;
+
+body {
+background-image: url(http://localhost/IN-NET/Imagenes/general/mensaje.png);
+background-size: cover;
+background-attachment: fixed;
 }
 
 .mensaje {
@@ -57,3 +58,14 @@ body{
     color: #730662;
     transition: 1s;
 }
+
+footer {
+    background-color: #730662;
+    color: aliceblue;
+    text-align: center;
+    padding: 1% 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
