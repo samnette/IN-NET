@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+<style>
+    body {
+    background-image: url(http://localhost/IN-NET/Imagenes/general/inicio.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+</style>
 
 <head>
     <title>IN-NET</title>
@@ -11,7 +18,7 @@
 
         <nav class="nav">
             <div class=librologo>
-                <img class="libro" src="Imagenes/index/logo-r.png">
+            <img class="libro" src="http://localhost/IN-NET/Imagenes/general/logo-r.png">
                 <div class="logo"> 
                     <a href="index.php">IN-NET</a>
                 </div> 
@@ -29,8 +36,8 @@
             <p>¿Tienes alguna pregunta, sugerencia o simplemente quieres compartir tus experiencias con nosotros?<br> 
                 ¡Nos encantaría escucharte! <br> ~ Puedes contactarnos de las siguientes formas: ~</p><br>
             <ul>
-                <li><strong>✧ Correo Electrónico: ✧</strong></li>
-                <li><strong>✧ Teléfono: ✧</strong></li>
+                <li><strong>✧ Correo Electrónico: innet@gmail.com✧</strong></li>
+                <li><strong>✧ Teléfono: 3310730593✧</strong></li>
                 <li><strong>✧ <a href="https://discord.gg/QGfpSTkung">Servidor de Discord</a> ✧</strong></li>
             </ul><br><br><br>
 

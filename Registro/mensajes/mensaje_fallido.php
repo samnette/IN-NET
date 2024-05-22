@@ -17,4 +17,7 @@
     <a class="boton" href="../../index.php">Volver</a>
     
 </body>
+<footer>
+        <p>&copy; 2024 IN-NET</p>
+    </footer>
 </html>

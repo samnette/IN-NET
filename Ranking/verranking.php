@@ -14,7 +14,7 @@
 <head>
     <title>RANKING</title>
     <link href="http://localhost/IN-NET/CSS/index.css" rel="stylesheet"/>
-    <link href="http://localhost/IN-NET/CSS/ranking.css" rel="stylesheet"/>
+    <link href="http://localhost/IN-NET/CSS/rankingg.css" rel="stylesheet"/>
 </head>
 <body>
 <nav class="nav">
@@ -29,7 +29,7 @@
                 <?php $adminson = $user->getAdmin(); if ($adminson == 1) {?>
                 <li><a href="http://localhost/IN-NET/admin/home.php">ADMIN</a></li>
                 <?php } ?>
-              <li><a href="http://localhost/IN-NET/actividad/actividad.php">ACTIVIDADES</a></li>
+              <li><a href="http://localhost/IN-NET/Juego/index.php">¡A JUGAR!</a></li>
               <li><a href="http://localhost/IN-NET/Contenido/indice.php">CONTENIDO</a><br>
               <li><a href="#">FORO</a></li>
               <li><a href="http://localhost/IN-NET/Perfil/lista.php">PERFIL</a><br>

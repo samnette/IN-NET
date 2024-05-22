@@ -17,4 +17,7 @@
     <a class="boton" href="../registro.php">Volver al Registro</a>
     
 </body>
+<footer>
+        <p>&copy; 2024 IN-NET</p>
+    </footer>
 </html>

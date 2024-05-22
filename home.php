@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
     <title>IN-NET</title>
     <link rel="stylesheet" href="http://localhost/IN-NET/CSS/index.css">
+    <style>
+    body {
+    background-image: url(http://localhost/IN-NET/Imagenes/general/inicio.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+</style>
+
 </head>
 
 <body>
@@ -36,7 +45,7 @@
                     una experiencia inolvidable!</p>
             </div>
             <div class="imagen">
-                <img src="Imagenes/index/home.jpg" alt="Imagen">
+                <img src="Imagenes/index/home.png" alt="Imagen">
             </div>
         </div><br>
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRO</title>
     <link href="../CSS/index.css" rel="stylesheet"/>
-    <link href="../CSS/formulario.css" rel="stylesheet"/>
+    <link href="../CSS/formularie.css" rel="stylesheet"/>
     <script>
         function handleFileChange() {
             const fileInput = document.getElementById('archivo');

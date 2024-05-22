@@ -16,4 +16,7 @@
     <a class="boton" href="../../Inicio/index.php">Iniciar Sesión</a>
     
 </body>
+<footer>
+        <p>&copy; 2024 IN-NET</p>
+    </footer>
 </html>

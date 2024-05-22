@@ -16,7 +16,6 @@ $username = "root";
 $password = "";
 $dbname = "innet";
 
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
