@@ -36,7 +36,7 @@
                 <?php } ?>
               <li><a href="http://localhost/IN-NET/Juego/index.php">¡A JUGAR!</a></li>
               <li><a href="http://localhost/IN-NET/Contenido/indice.php">CONTENIDO</a><br>
-              <li><a href="#">FORO</a></li>
+              <li><a href="https://discord.gg/H8rsHTrh" target="_blank">FORO</a></li>
               <li><a href="http://localhost/IN-NET/Perfil/lista.php">PERFIL</a><br>
               <li><a href="http://localhost/IN-NET/Ranking/verranking.php">RANKING</a></li>
               <li><a href="http://localhost/IN-NET/Inicio/includes/logout.php">CERRAR SESION</a></li>
@@ -152,13 +152,14 @@
     <p>En resumen, las variables son los contenedores y los tipos de datos son los diferentes tipos de cosas que pueden contener.</p><br>
 
     <div class="level">
-    <h4>¡Video explicativo!</h4>
+    <h4>¡Video explicativo!</h4><br><br>
     </div>
     <div class="video-container">
-        <video controls autoplay loop>
-            <source src="video.mp4" type="video/mp4">
+    <a href="http://localhost/IN-NET/Contenido/Script/tema3.php" class="button">Ver Script</a>
+        <video controls>
+            <source src="http://localhost/IN-NET/Contenido/Videos/tema3.mp4" type="video/mp4">
             Tu navegador no admite el elemento de video.
-        </video><br><br><br>
+        </video><br><br><br><br>
     </div>
     <div class="botones">
       <a href="http://localhost/IN-NET/Contenido/tema2.php" class="button">Regresar</a>

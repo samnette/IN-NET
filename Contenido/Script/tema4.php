@@ -44,25 +44,26 @@
         </nav>
         
         <div class="container2">
-    <h2>✧ ¿Alguna vez has escuchado o leído sobre la programación? ✧</h2>
+    <h2>✧ Las variables ✧</h2>
+    
+    <p>Ahora que tienes en claro que son los tipos de datos, sus variantes y el cómo funcionan es momento de dar el siguiente paso en el saber de la programación ¿Cuál es? Las variables. 
 
-    <p>¿Listo para sumergirte en el emocionante mundo de la programación? ¡Prepárate para nivelar tus habilidades y convertirte en el maestro del código! Pero espera, ¿qué es realmente la programación?</p>
-                <br><br>
-      <p>Te explico, la programación es la creación de instrucciones para realizar tareas específicas en una computadora, mejor llamado como código, que es el lenguaje que permite que nuestras instrucciones sean realizadas por la máquina.</p>
+Las variables son un pilar fundamental dentro de la programación, sin ellas no podrías avanzar en tu entorno/código. La comprensión de las variables es casi tan importante como la comprensión del propio código, esto debido a que se necesitan las variables para poder manipular de manera eficiente los datos de un código, así como mantenerlo limpio y legible.
 
-    <h2>Algunos de sus componentes básicos son:</h2>
-    <p><strong>✧ Lenguajes de programación</strong>: permiten al programador y a la computadora interactuar. Algunos de los más conocidos son Python, Java, C, entre otros. Ten en cuenta que cada lenguaje tiene distinta sintaxis y reglas, descubre cuál es el que mejor se adapta a ti.</p>
-    <p><strong>✧ Algoritmos</strong>: son series de pasos lógicos ordenados que describen cómo se debe realizar alguna tarea específica. Estos se deben adaptar al código para que se puedan implementar, pero más adelante te explicaremos un poco más al respecto.</p>
-    <p><strong>✧ Compiladores y entornos de desarrollo</strong>: los compiladores son los encargados de traducir nuestro código para que se logre ejecutar directamente. Por otro lado, los entornos de desarrollo son los ambientes en los que el programador puede trabajar, utilizando distintas herramientas tales como editor de código, compiladores, depuradores, entre otros. Algunos de los más conocidos son Visual Studio Code, PyCharm, Eclipse, entre otros.</p><br><br>
+Una vez se domina el uso de las variables y sus aplicaciones, tu como programador podrás escribir programas muchísimo más complejos y eficientes a la hora de complacer aquello que quieres crear. A continuación, de la misma manera que en los tipos de datos voy a enseñarte 3 variables importantes dentro de la programación.
 
-    <p>Para poder entender un poco más de cómo funciona la programación debemos tener en cuenta que tiene procesos importantes, tales como identificar cuál es la problemática a resolver, cómo será el diseño para ejecutar la solución, ya sea creando algoritmos y la estructura en general, codificar en el lenguaje de nuestra selección, hacer las respectivas pruebas y darle su respectivo mantenimiento.</p>
+Variables numéricas: Estas almacenan valores numéricos, sin importar si son enteros o si son decimales, por ejemplo, PRECIO: 7,757 o EDAD: 21.
 
+Variables de texto: Las variables de texto almacenan cadenas de caracteres comos serian; NOMBRE: Pepito Espadas o MENSAJE: “ Como que 35° a la sombra en tonalá” 
+Variables booleanas: Como en los tipos de datos, se encargan de almacenar valores verdaderos, como por ejemplo un; ACTIVO = True o VALIDO = False.
+
+</p>
     <p>Es por ello que te invitamos a que profundices y pongas a prueba tu conocimiento con IN-NET.</p>
 </body>
     <br><br>
     <div class="botones">
       <a href="http://localhost/IN-NET/Contenido/indice.php" class="button">Regresar al indice</a>
-      <a href="http://localhost/IN-NET/Contenido/tema1.php" class="button">Regresar</a><br><br>
+      <a href="http://localhost/IN-NET/Contenido/tema4.php" class="button">Regresar</a><br><br>
     </div>
     </div>
    

@@ -44,25 +44,37 @@
         </nav>
         
         <div class="container2">
-    <h2>✧ ¿Alguna vez has escuchado o leído sobre la programación? ✧</h2>
+    <h2>✧ Funciones ✧</h2>
+    <p>¿Sabes que es lo que realizan las funciones dentro del mundo de la programación?
+Son herramientas esenciales que te permiten organizar y reutilizar tu código de manera efectiva.
+Entonces tengamos en claro sus partes: definirla, el contenido, y su llamada.
+Definir una función es establecer el nombre que tendrá y si se requiere, los parámetros y argumentos, estos son variables y valores que se utilizaran. Luego tenemos el cuerpo de la función que es el que contiene todas las instrucciones que realizara al ser requerida, y por ultimo para llamar a la función solo debemos invocar con el nombre previamente establecido en la parte del código para que se realice la función. 
+Un ejemplo sencillo implementado con python seria:
+• Función para Saludar: 
+def saludar(nombre): 
+mensaje = "¡Hola, " + nombre + "! ¿Cómo estás?" 
+return mensaje 
 
-    <p>¿Listo para sumergirte en el emocionante mundo de la programación? ¡Prepárate para nivelar tus habilidades y convertirte en el maestro del código! Pero espera, ¿qué es realmente la programación?</p>
-                <br><br>
-      <p>Te explico, la programación es la creación de instrucciones para realizar tareas específicas en una computadora, mejor llamado como código, que es el lenguaje que permite que nuestras instrucciones sean realizadas por la máquina.</p>
+Definimos el nombre que es “Saludar”, y “nombre” es el parametro de entrada.
+El cuerpo de la funcion contiene “mensaje”, el cual es una variable que contiene el texto "¡Hola, " + nombre + "! ¿Cómo estás?", donde el nombre es el parametro previamente establecido.
+Por ultimo tenemos el return que es el encargado de devolver la variable anterior cuando sea invocada la funcion.
 
-    <h2>Algunos de sus componentes básicos son:</h2>
-    <p><strong>✧ Lenguajes de programación</strong>: permiten al programador y a la computadora interactuar. Algunos de los más conocidos son Python, Java, C, entre otros. Ten en cuenta que cada lenguaje tiene distinta sintaxis y reglas, descubre cuál es el que mejor se adapta a ti.</p>
-    <p><strong>✧ Algoritmos</strong>: son series de pasos lógicos ordenados que describen cómo se debe realizar alguna tarea específica. Estos se deben adaptar al código para que se puedan implementar, pero más adelante te explicaremos un poco más al respecto.</p>
-    <p><strong>✧ Compiladores y entornos de desarrollo</strong>: los compiladores son los encargados de traducir nuestro código para que se logre ejecutar directamente. Por otro lado, los entornos de desarrollo son los ambientes en los que el programador puede trabajar, utilizando distintas herramientas tales como editor de código, compiladores, depuradores, entre otros. Algunos de los más conocidos son Visual Studio Code, PyCharm, Eclipse, entre otros.</p><br><br>
+# Uso de la función 
+nombre = "Juan" 
+saludo = saludar(nombre) 
+print(saludo) 
 
-    <p>Para poder entender un poco más de cómo funciona la programación debemos tener en cuenta que tiene procesos importantes, tales como identificar cuál es la problemática a resolver, cómo será el diseño para ejecutar la solución, ya sea creando algoritmos y la estructura en general, codificar en el lenguaje de nuestra selección, hacer las respectivas pruebas y darle su respectivo mantenimiento.</p>
+Ahora para llamar a la funcion, tenemos que nuestra variable nombre tiene asignada el texto de “Juan”, luego tenemos la llamada a nuestra funcion con el argumento de nombre, lo que hara que se almacene en la funcion, y por ultimo tenemos una impresion del resultado, el cual daria como resultado ¡Hola, Juan! ¿Cómo estás?
 
+Ahora que sabes cual es la utilidad de las funciones, podras encontrar de diferentes tipos, tales como funciones integradas, personalizadas, y recursivas, el limite es tu imaginacion y el como las manipules.
+
+</p>
     <p>Es por ello que te invitamos a que profundices y pongas a prueba tu conocimiento con IN-NET.</p>
 </body>
     <br><br>
     <div class="botones">
       <a href="http://localhost/IN-NET/Contenido/indice.php" class="button">Regresar al indice</a>
-      <a href="http://localhost/IN-NET/Contenido/tema1.php" class="button">Regresar</a><br><br>
+      <a href="http://localhost/IN-NET/Contenido/tema6.php" class="button">Regresar</a><br><br>
     </div>
     </div>
    
